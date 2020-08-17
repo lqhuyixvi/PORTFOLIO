@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background:#f4fafa;
+}
+.hcontainer{
+	max-width: 1170px;
+	background:red;
+	margin: 61px auto;
+}
+.navbar{
+	min-height: 60px !important;
+	max-width: 1170px!important;
+	background:red!important;
+	margin: 0 auto!important;
+}
+.navbar navbar-inverse navbar-fixed-top .container-fluid{
+	width:1170px!important;
+}
+.navbar-inverse{
+	background-color:#111 !important;
+	border-color:#111 !important;
+}
+#myNavbar ul.nav.navbar-nav li a{
+	padding-top:20px !important;
+	padding-bottom:20px !important;
+	padding-left:50px!important;
+	padding-right:50px!important;
+	
+}
+#myNavbar ul.nav.navbar-nav li:active a{
+	
+}
+.navbar-nav{
+	float:right!important;
+}
+.navbar-brand img{
+	float:left!important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color:#01a3ba;
+	
+}
+.navbar-inverse .navbar-nav>.active>a:hover .main-menu{
+	color:#f4fafa!important;
+}

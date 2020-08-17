@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	scroll-behavior: smooth;
+}
+body{
+	background:#f4fafa;
+}
+.hcontainer{
+	max-width: 1170px;
+	margin: 61px auto;
+}
+.navbar .container{
+	max-width:1170px;
+	height: 60px;
+}
+.navbar-brand img{
+	width:71px;
+}
+.navbar-brand {
+	height:60px;
+}
+#myNavbar ul li a.main-menu{
+	height:60px;
+	padding:20px 50px;
+}
+
+.nav navbar-nav{
+	float:right;
+}
